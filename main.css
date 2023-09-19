@@ -1,14 +1,17 @@
 /* Universal Selector */
 
+body{
+    background-color: bisque;
+}
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-around;
     background-color: dodgerblue;
     padding: 2vw;
 }
 
-.navbar > a {
+.navbar>a {
     color: white;
     text-decoration: none;
 }
@@ -21,9 +24,8 @@ Box Model is made up of 4 parts: Content, Padding, Border, Margin
     Border - A border that goes around the padding and content
     Margin - Clears an area outside the border. The margin is transparent
 */
-.box-model{
-    border: 5px solid green
-    padding: 2px;
+.box-model {
+    border: 10px, solid green;
 }
 
 
@@ -126,4 +128,3 @@ Box Model is made up of 4 parts: Content, Padding, Border, Margin
 
 
 /* position: sticky -  positioned based on the user's scroll position - toggles between relative and fixed, depending on the scroll position */
-
